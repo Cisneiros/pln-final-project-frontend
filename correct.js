@@ -38,7 +38,7 @@
       var li = document.createElement('li');
       li.innerHTML = suggestion;
       li.addEventListener('click', function() {
-        replaceWord(positionStart + 1, positionEnd - 1, suggestion);
+        replaceWord(positionStart + 1, positionEnd, suggestion);
       });
 
       suggestionsList.appendChild(li);
